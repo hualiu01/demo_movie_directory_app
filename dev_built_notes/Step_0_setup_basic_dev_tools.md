@@ -1,5 +1,4 @@
 # Step 0: Setup basic dev tools
-`http://localhost:3000/`
 
 Get familiar with and install the following lang/tool/libs.
 

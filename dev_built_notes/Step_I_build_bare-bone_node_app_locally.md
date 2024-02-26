@@ -27,13 +27,34 @@ Note: `-D` will make these packages in the `"devDependencies"` section of the `p
 Run .ts without compiling and outputing to `./dist`: `npm i -D ts-node & npx ts-node src/index.ts`
 
 ## `nodemon` 
-Restart Node-based applications upon detecting file changes in the specified directories: `npm i -D nodemon`
+Restart Node-based applications upon detecting file changes in the specified directories
+__setup__
+- Install `nodemon` package `npm i -D nodemon`
+- Create a config file `nodemon.json`
+- config `nodemon.json` to watch which directory for which files
+```
+{
+    "watch": ["src"],
+    "ext": "ts",
+    "exec": "concurrently \"npx tsc --watch\" \"ts-node src/index.ts\""
+}
+```
+- The above config, on exec, it uses a new package `concurrently`. Thus we need to install it: `node i -D concurrently` => this will add it to `devDependencies` section in `package.json`
 
-Create a config file `nodemon.json`
+- Define goal `dev` under section `"scripts"` in `package.json`: `"dev": "nodemon src/index.ts"`
+
+__run__
+- Init the development server with `nodemon`: `npm run dev`
 
 ## Compile `.ts` to `.js` and start the APP
+__setup__
+- Define goals `build`, `test` and `start` under section `"scripts"` in `package.json`
+  ```
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js"
+  ```
 
-- Add `build` `start` and `dev` to `"scripts"` in `package.json`.
-  - Note: `"dev": "nodemon src/index.ts"`: The dev command is designed to run the Express server in development mode with the help of nodemon and ts-node.
-- Init the development server with `nodemon`: `npm run dev`
-- Build: `npm run build` => Run built JS: `npm run start`
+__run__
+- Build: `npm run build` 
+- Run built JS: `npm run start`
