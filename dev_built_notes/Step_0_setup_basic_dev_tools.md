@@ -59,19 +59,23 @@ Install nvm: https://github.com/nvm-sh/nvm#installing-and-updating
 
 __NPM__ `10.2.1`
 
-Node package manager. Like pip to python.
+Node package manager. Like pip to python. 
+
+NPM is included with Node. js installation
 
 __YARN__ [No need to set up for this project]
 
 Alternative package manager to npm. 
 
-__NPX__
+__NPX__ `10.2.1`
 
-NPX stands for Node Package eXecute. It is simply an __NPM package runner__. It allows developers to execute any Javascript Package available on the NPM registry without even installing it. NPX is installed automatically with NPM version 5.2. 0 and above.
+NPX stands for Node Package eXecute. It is simply an __NPM package runner__. It allows developers to execute any Javascript Package available on the NPM registry without even installing it. 
+
+NPX is installed automatically with NPM version 5.2. 0 and above.
 
 ### Node frameworks and libs
 
-__React__
+__React__ [Installation will be covered later when it's used]
 
 The JS __library__ for web and native user interfaces
 
@@ -86,7 +90,7 @@ Next.js is a __full-stack React framework__. By framework, we mean Next.js handl
 You can use React to build your UI, then incrementally adopt Next.js features to solve common application requirements such as routing, data fetching, integrations
 
 
-__Express.js__
+__Express.js__ [Installation will be covered later when it's used]
 built on Node.js, written in JS
 It's a small __framework sits on top of Node.js to build web-apps__ using approaches and principles of Node JS. 
 

@@ -1,4 +1,4 @@
-# Step V: Add more features to the APP
+# Step VI: Add more features to the APP
 
 # Get IMDB Data via Dev API FREE?
 

@@ -1,4 +1,4 @@
-# Step II: Provision aws ECS via Terraform 
+# Step IV: Provision aws ECS via Terraform 
 
 Ref:
 - `developer.hashicorp.com`[Standard Module Structure](https://developer.hashicorp.com/terraform/language/v1.6.x/modules/develop/structure) for terraform 1.6.X

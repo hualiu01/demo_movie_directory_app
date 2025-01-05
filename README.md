@@ -3,9 +3,9 @@
 A end-to-end cloud ECS movie repository app that shows a selected set of movies with all kinds of ratings and awards from different sources.
 
 JS, NodeJS, ExpressJS, TypeScript
-Iac, Terraform
 Docker
-AWS IAM, EKS 
+Iac, Terraform
+AWS IAM, ECS 
 
 # Get Started
 __install packages__

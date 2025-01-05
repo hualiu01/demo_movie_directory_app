@@ -7,3 +7,14 @@ Ref:
 - [How to Deploy an AWS ECS Cluster with Terraform](https://spacelift.io/blog/terraform-ecs)
 - `aws.amazon.com/getting-started/hands-on`[Deploy Docker Containers on Amazon ECS](https://aws.amazon.com/getting-started/hands-on/deploy-docker-containers/)
 
+
+## Web Hosting
+- Shared Hosting
+  - small websites; sandbox env;
+  - free with limitations
+- VPS (Virtual Private Surface)
+  - dedicated CPU, memory, and bandwidth resources
+- Dedicated Hosting
+  - hardware server dedicated to you
+- Cloud hosting
+  - Cloud environment spans across multiple physical and virtual servers. If a physical or virtual server fails, your website will run on a different server and stay online. 
